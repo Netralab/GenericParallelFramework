@@ -16,4 +16,4 @@ To use this code first install R and the packages mentioned in the beginning of 
 
 There are chances that R will throw you an error if the version of R and the version of the package don't match so be careful while downloading the packages. Some packages might require R 4.0 or higher while others may require R 3.6 or lower. 
 
-2. The R parallel package works properly only for LINUX version for R. Therefore it is advisable to execute these codes in LINUX R environment. However, the files- GeneNet and Genie3 will only execute in Windows R environment.
+2. The files in this repository were written in the LINUX R environment. In order to execute in WINDOWS R environment kindly pass the name of the package in the two foreach loops for inference and re-inference. However, the files- GeneNet and Genie3 will only execute in Windows R environment due to source package incompatibility in LINUX R environment.
